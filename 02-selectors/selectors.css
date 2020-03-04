@@ -25,21 +25,21 @@ header h1 {
 }
 
 
-/* 5 = Select only the `ul` elements that are children of the `nav` element 
+/* 5 = Select only the `ul` elements that are children of the `nav` element */
 nav > ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 child combinator
-*/
-/* 6 = Select only the first child paragraph within a `section` element 
+
+/* 6 = Select only the first child paragraph within a `section` element */
 section >p:first-child {
   font-size: 1.5rem;
 }
 pseudo-class selector
 element 
-*/
+
 /* 7 = Select any heading element */
 h1,
 h2,
