@@ -1,118 +1,128 @@
 /* 1 = Select everything in the document */
-1 {
+* {
   all: unset;
 }
-
+Universal selector
 
 /* 2 = Select only table elements */
-2 {
+table {
   border-spacing: 0;
   border-collapse: collapse;
 }
-
+id selector
 
 /* 3 = Select any element with a class value of `police` */
-3 {
+.police {
   color: blue;
   background-color: red;
 }
-
+class selector
 
 /* 4 = Select any `h1` element that is a descendent of the `header` element */
-4 {
+header h1 {
   font-size: 4rem;
   margin-bottom: 0;
 }
 
 
-/* 5 = Select only the `ul` elements that are children of the `nav` element */
-5 {
+/* 5 = Select only the `ul` elements that are children of the `nav` element 
+nav > ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
-
-/* 6 = Select only the first child paragraph within a `section` element */
-6 {
+child combinator
+*/
+/* 6 = Select only the first child paragraph within a `section` element 
+section >p:first-child {
   font-size: 1.5rem;
 }
-
-
+pseudo-class selector
+element 
+*/
 /* 7 = Select any heading element */
-7 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: normal;
 }
+Element selector, as the list
 
-
-/* 8 = Select all anchors that are also links */
-8 {
+/* 8 = Select all anchors that are also links a:link */
+  {
   text-decoration: underline;
 }
-
+Link pseudo-class
+Element selector
 
 /* 9 = Select any anchor that is hovered over with the mouse */
-9 {
+a:hover {
   text-decoration: none;
 }
+Hover pseudo-class 
+Element selector
 
 
 /* 10 = Select only the element with ID value equal to `captain` */
-10 {
+#captain {
   border: 5px solid gold;
   border-radius: 5px;
 }
-
+ID selector
 
 /* 11 = Select all paragraph elements that have a class value of `hidden` */
-11 {
+p.hidden {
   display: none;
 }
-
-
-/* 12 = Select all form elements that have a method attribute set to `POST` */
-12 {
+Class selector
+Element selector
+/* 12 = Select all form elements that have a method attribute set to `POST`*/ 
+form[method="POST"] {
   box-shadow: 2px 2px 5px rgba(0,0,0,.1);
 }
-
+Attribute selector
+Element selector
 
 /* 13 = Select any element that has a `required` attribute defined */
-13 {
+[required] {
   border-color: red;
 }
-
+Attribute selector (without value)
 
 /* 14 = Select any sibling paragraph elements that are preceeded by an `h3` */
-14 {
+h3 ~ p {
   color: #66F;
 }
-
+General sibling combinator
 
 /* 15 = Select any sibling paragraph elements that directly follow an `h3` */
-15 {
+h3 + p{
   font-size: 1.5rem;
 }
-
+Adjacent sibling combinator
 
 /* 16 = Select every cell within each odd table row */
-16 {
+tr:nth-of-type(odd) > *{
   background-color: rgba(0,0,0,.1);
 }
 
 
 /* 17 = Select any `img` element that doesn't have a `alt` attribute */
-17 {
+img:not([alt]) {
   border: 5px solid red;
 }
-
+Attribute selector
 
 /* 18 = Select any `p` element that doesn't have any contents */
-18 {
+p:empty {
   display: none;
 }
-
+Pseudo-class selectors
 
 /* 19 = Select the root of the document or fragment */
-19 {
+:root {
   --base_unit: 1rem;
 }
