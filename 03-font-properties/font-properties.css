@@ -1,8 +1,19 @@
-* {
-/*
-  Property name
-  Property description
 */
-  /* Property example with a value */
-
+  Property name
+  * dt {
+  list-style-type: disc;
 }
+/*
+*/
+  Property description
+dt + dd {
+  list-style-type: square;
+}
+/*
+*/
+  Property example with a value 
+* p {
+  list-style-position: unset;
+}
+/*
+  
