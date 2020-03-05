@@ -1,19 +1,24 @@
-*/
+*
+*dt {
+  list-style: none;
+/*
   Property name
-  * dt {
-  list-style-type: disc;
-}
-/*
-*/
   Property description
-dt + dd {
-  list-style-type: square;
 }
+font-family: defines a list of fonts for element,
+font-size:defines the font size for the text,
+font-weight:specifies the font weight of the text,
+line-height:sets the height between lines of text,
+Font-varian:specifies the font variant,
+Font-stretch:selects a normal face from a font,
+
 /*
 */
+ {
   Property example with a value 
+}
 * p {
-  list-style-position: unset;
+  text-decoration-line: unset;
 }
 /*
   
