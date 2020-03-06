@@ -1,24 +1,70 @@
-*
-*dt {
-  list-style: none;
 /*
   Property name
   Property description
 }
-font-family: defines a list of fonts for element,
-font-size:defines the font size for the text,
-font-weight:specifies the font weight of the text,
-line-height:sets the height between lines of text,
-Font-varian:specifies the font variant,
-Font-stretch:selects a normal face from a font,
-
-/*
+/*font
+font-family: defines a list of fonts for element
 */
- {
-  Property example with a value 
+/*example*/
+example {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-* p {
-  text-decoration-line: unset;
+
+/* font-size:defines the font size for the text*/
+example {
+  font-size: larger;
 }
-/*
-  
+/* font-weight:specifies the font weight of the text*/
+example {
+  font-weight: bolder;
+}
+/* line-height:sets the height between lines of text*/
+example {
+  line-height: normal;
+}
+/* Font-variant:specifies the font variant*/
+* {
+  font-variant: small-caps;
+}
+/* Font-stretch:selects a normal face from a font*/
+* {
+  font-stretch: extra-condensed;
+}
+/* Font-size-adjust: reserve the text to be readable even the font fallback occurs. */
+* {
+  font-size-adjust: inherit;
+}
+/*Letter-spacing: increase or decrease the space between characters.*/
+* {
+  letter-spacing: initial;
+}
+/*word-spacing: adds a space between words*/
+* {
+  word-spacing: inherit;
+}
+/*text-align: aligns the text in an element.*/
+* {
+  text-align: justify;
+}
+/*text-decoration: adds decoration to text.*/
+* {
+  text-decoration: thistle;
+}
+/*text-decoration: adds decoration to text.*/
+* {
+  text-decoration: coral;
+}
+/*text-decoration-color: adds decoration to the  underlined text.*/
+* {
+  text-decoration-color: crimson;
+}
+
+/*text-indent: indents the first line of text in an element.*/
+* {
+  text-indent: 0rem;
+}
+
+/*text-transform: controls the letters in an element.*/
+* {
+  text-transform: capitalize;
+}

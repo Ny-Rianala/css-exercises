@@ -1,8 +1,58 @@
-* {
-  /*
+/*
     Property name
     Property description
-  */
-    /* Property example with a value */
+*/
 
+  /*color
+  background image:sets the background of an image in element.
+  */
+  /*example*/
+p {
+  background-color: darkgrey;
+}
+  /*color
+  background position:specifies the initial of the background of an image.
+  */
+  /*example*/
+p two {
+    background-position: top;
   }
+  /*color
+  background attachement:secifies wether the background images are fixed with regard to the viewport or scroll along with the element.
+  */
+  /*example*/
+p {
+    background-attachment: fixed;
+  }
+
+  /*color
+  background clip:determines the background painting area.
+  */
+  /*example*/
+p {
+  background-clip: border-box;
+}
+  /*color
+  background origin:specifies  the background positioning area for a single box.
+  */
+  /*example*/
+p {
+  background-origin: content-box;
+}
+
+  /*color
+  background size:specifies the size of background image.
+  */
+  /*example*/
+p {
+  background-size: contain;
+
+}
+  /*color
+  box shadow: attaches one or more boxe-shadows to the box.
+  */
+/*example*/
+p {
+  box-shadow: cadetblue;
+}
+
