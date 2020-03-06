@@ -68,3 +68,8 @@ example {
 * {
   text-transform: capitalize;
 }
+
+/*vertical-align:shows the position of inline boxes.*/
+* {
+  vertical-align: ;
+}

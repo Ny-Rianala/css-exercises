@@ -1,0 +1,17 @@
+/*Dory*/
+figure.dory {
+    background-color: skyblue;
+    background-image: url('../images/bubble.png'),
+                      url('../images/coral-reef.png');
+    background-repeat: repeat-x;
+    background-position: center;
+}
+figure.henry {
+    background-image: linear-gradient(to top,);
+    background-image: url('../images/grass-tile.png'),
+                      url('../images/sun.png'),
+                      url('../images/grass-clump.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    image-rendering: optimizeQuality;
+}
