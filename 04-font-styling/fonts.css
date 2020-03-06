@@ -1,66 +1,58 @@
-/* font styling */
-h1 {
+.example {
+    margin-block-end: 1em;
+}
+.example h1 {
     font-size: 2.5rem;
     font-weight: 800;
-    margin-block-end: 1em;
 }
-h2 {
+.example h2 {
     font-size: 2rem;
     font-weight: 700;
-    margin-block-end: 1em;
 }
-h3 {
+.example h3 {
     font-size: 1.5rem;
     font-weight: 700;
-    margin-block-end: 1rem;
 }
 
-h4 {
+.example h4 {
     font-size: 1.25rem;
     font-weight: 700;
-    margin: 1em;
 }
 
-h5 {
+.example h5 {
     font-size: 1rem;
     font-weight: 700;
-    margin-block-end: 1em;
 }
-
-h6 {
+.example h6 {
     font-size: 1rem;
     font-weight: 700;
-    margin-block-end: 1em;
 }
-intro paragraph {
-    font-size: 1.125;
-    font-weight: 400;
-    margin-block-end: 1em;
-}
+Intro {
+    font-size: .125rem; 
+    font-weight:400;
+    margin-block-end: 0.1em;
 
-Paragraph {
+}
+.example p {
     font-size: 1rem;
     font-weight: 400;
     margin-block-end: 1em;
 }
-
-Small {
-    font-size: 0.75;
+.example small{
+    font-size: 0.75rem;
     font-weight: 400;
     margin-block-end: 1em;
+    font-variant: small-caps;
 }
 
-/*section sans serif*/
 #section_sans_serif {
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/*section serif*/
-#section_serif {
-    font-family: serif;
+#section_serif{
+    font-family: 'Times New Roman', Times, serif;
 }
 
-/*section monospace*/
 #section_monospace {
     font-family: monospace;
 }
