@@ -7,11 +7,20 @@ figure.dory {
     background-position: center;
 }
 figure.henry {
-    background-image: linear-gradient(to top,);
-    background-image: url('../images/grass-tile.png'),
+    background-image: url('../images/grass-left.png'),
                       url('../images/sun.png'),
-                      url('../images/grass-clump.png');
+                      url('../images/grass-clump.png'),
+                      -webkit-linear-gradient(bottom, rgb(255,219,0) 0%, rgb(255,245,56) 30%, rgb(255,250,112) 50%);
+
     background-repeat: no-repeat;
-    background-position: bottom;
-    image-rendering: optimizeQuality;
+    background-position: bottom left, top right,center bottom;
+}
+figure.lu-seal {
+    background-image: url('../images/palm-2.png'),
+                      url('../images/palm.png'),
+                      url('../images/sun.png'),
+                      url('../images/beach-ball.png');
+    background-repeat: no-repeat;
+    background-attachment:  fixed;
+    background-position: center bottom, right bottom, top left, bottom right;
 }
