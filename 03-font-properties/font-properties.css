@@ -23,11 +23,11 @@ example {
   line-height: normal;
 }
 /* Font-variant:specifies the font variant*/
-* {
+example {
   font-variant: small-caps;
 }
 /* Font-stretch:selects a normal face from a font*/
-* {
+ {
   font-stretch: extra-condensed;
 }
 /* Font-size-adjust: reserve the text to be readable even the font fallback occurs. */

@@ -1,17 +1,32 @@
 /*Dory*/
 figure.dory {
-    background-color: skyblue;
     background-image: url('../images/bubble.png'),
-                      url('../images/coral-reef.png');
-    background-repeat: repeat-x;
-    background-position: center;
+                      url('../images/crab.png'),
+                      url('../images/coral-reef.png'),
+                      url('../images/coral-reef.png'),
+                      linear-gradient (0deg (rgb(173, 216, 230) 0%, (rgb(132, 205, 230) 10%, (rgb(255, 255, 0) 100%);
+    background-position:
+    0%,0%,/*bubble*/
+    100%,100%,/*crab*/
+    50%,50%,/*coral reef*/
+    50%,50%;/*coral reef*/
+
+    background-repeat:
+    /*bubble*/no-repeat,
+    /*crab*/no-repeat,
+    /*coral*/no-repeat,
+    /*coral*/no-repeat; 
+
+    background-size:
+    /*bubble*/50%,
+    /*coral*/
+    /*coral*/
 }
 figure.henry {
     background-image: url('../images/grass-left.png'),
                       url('../images/sun.png'),
                       url('../images/grass-clump.png'),
-                      -webkit-linear-gradient(bottom, rgb(255,219,0) 0%, rgb(255,245,56) 30%, rgb(255,250,112) 50%);
-
+                      linear-gradient(bottom, rgb(255,219,0) 0%, rgb(255,245,56) 30%, rgb(255,250,112) 50%);
     background-repeat: no-repeat;
     background-position: bottom left, top right,center bottom;
 }
