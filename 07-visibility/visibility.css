@@ -5,8 +5,12 @@
 */
   /* Property example with a value */
 }
-
-/*
+/*Opacity:sets the opacity of an element. It is the degree to which content behind an element hidden.*/
+/*example*/
+#example {background-color: plum;}
+div{
+    opacity: 0.3;
+ }
   Questions
   =======================
 
