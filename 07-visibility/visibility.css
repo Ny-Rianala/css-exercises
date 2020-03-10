@@ -1,4 +1,3 @@
-* {
 /*
   Property name
   Property description
@@ -6,17 +5,31 @@
   /* Property example with a value */
 }
 /*Opacity:sets the opacity of an element. It is the degree to which content behind an element hidden.*/
-/*example*/
-#example {background-color: plum;}
-div{
-    opacity: 0.3;
- }
+/* opacity example*/
+#p {
+  background-color: hsl(5, 100%, 40%);
+  opacity: 2;
+}
+/*display:sets whether an element is treated as a block or online element.*/
+/*opacity example*/
+p {
+  display: inline; /*the element stays in the same line and only takes up the width of its content*/
+}
+p {
+  display: block; /*The element starts in a new line and takes up the whole available width.*/
+}
+p {
+  display: none;/* element is not displayed*/
+}
   Questions
   =======================
 
   - What is the difference between `opacity` and a `background-color` that is semi-transparent?
+/*opacity: is the degree to which content behind an element hidden.*/
+/*a background-color that is semi-transparent: */
   - What is the difference between `display: none;` and `visibility: hidden;`?
+/*display none: the tag does not appear on the page at all, no space located for it between the other tags.*/
+/*visibility hidden: the tag appears, space is located for it  on the page.
   - Why would we use `visibility: visible;`?
-
-*/
+/* We should use visibility because  it preserves the element space*/
 

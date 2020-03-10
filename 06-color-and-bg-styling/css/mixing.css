@@ -1,5 +1,5 @@
 /*Dory*/
-figure.dory {
+.dory {
     background-image: url('../images/bubble.png'),
                       url('../images/crab.png'),
                       url('../images/coral-reef.png'),
@@ -18,9 +18,8 @@ figure.dory {
     /*coral*/no-repeat; 
 
     background-size:
-    /*bubble*/50%,
-    /*coral*/
-    /*coral*/
+    
+
 }
 figure.henry {
     background-image: url('../images/grass-left.png'),
