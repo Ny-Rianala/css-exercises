@@ -1,0 +1,21 @@
+/*Visibility*/
+ul:nth-child {
+  visibility: visible;
+}
+ul:nth-child(2){
+  visibility: hidden;
+}
+ul:nth-child(3){
+  visibility: hidden;
+}
+/*Display*/
+tr {
+  background-color:white;
+  display: none;
+td {
+  background-color:
+}
+  display: none;
+  background-color: white;
+
+  }
