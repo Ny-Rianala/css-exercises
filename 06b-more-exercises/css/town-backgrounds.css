@@ -1,0 +1,65 @@
+#town{
+  background-origin: border-box;
+  background-size: 320px;
+}
+#sky {
+  height: 170px;
+}
+#sun {
+  background-image: url(../images/sun.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+#cloud-1 {
+  background-image: url(../images/cloud.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 40px;
+}
+#cloud-2 {
+  background-image: url(../images/cloud.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 45px;
+}
+#countryside {
+  background-position: bottom;
+  height: 150px;
+}
+#town {
+  background-position: bottom;
+  height: 120px;
+}
+#house-1 {
+  background-image: url(../images/house-1.svg);
+  background-position: bottom left;
+  width: 80px;
+  height: 80px;
+}
+#house-2 {
+  background-image: url(../images/house-2.svg);
+  background-position: bottom right;
+  width: 56px;
+  height: 56px;
+}
+#palm-tree {
+  background-image: url(../images/palm-tree.svg);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  height:60px;
+}
+#tree {
+  background-image: url(../images/tree.svg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  height: 60px;
+}
+#car {
+  background-image: url(../images/car.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+}
