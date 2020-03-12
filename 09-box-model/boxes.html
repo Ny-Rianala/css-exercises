@@ -1,0 +1,48 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-model</title>
+    <link rel="stylesheet" href="boxes.css">
+  </head>
+  <body>
+      <h1>
+        What is a box model?
+      </h1>
+      <p>
+        According to wikipedia: "<mark>a box model</mark> refers to how HTML elements are modeled in browser engines and how dimension of those HTML elements are derived from CSS properties." It contains four(4) parts or areas. They defines by theirs edges: margin, border, padding, and content.
+      </p>
+      <h2>
+        How does it look like?
+      </h2>
+      <p>
+        This diagram below represent  feature of the box model.
+      </p>
+        <img src="box-model.jpg" alt>
+      <h3>
+        Description of some keywords:
+      </h3>
+        <ol>
+          <li>content-box: According to MDN web docs: "content-box is the initial and default value as specified by the CSS standard. The width and height properties include the content, but does not include the padding, border, or margin."</li>
+          <li>padding-box:padding box is the transparent area which is next to the content box. </li>
+          <li>border-box: According to MDN web docs: "border-box is the width and height properties include the content, padding, and border, but do not include the margin.</li>
+        </ol>
+        <h4>
+          Description:
+        </h4>
+        <ul>
+          <li>border:According to Tech On The Net web, border property defines the width, line style, and color of the border of a box. It is a shorthand property for setting the border-width, border-style, and border-color CSS properties </li>
+          <li>margin: According to MDN web docs: "sets the margin area on all fours sides of an elements</li>
+          <li>padding: According to Tech On The Net web, padding property defines the padding space on all sides of an element.</li>
+          <li>display: According to MDN web docs, The display CSS property sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid or flex.</li>
+          <li>box-sizing: sets the size of the box, such as height and the width.</li>
+        </ul>
+        <h5>
+          understanding
+        </h5>
+          <ol>
+        <li>As my understanding, when two differently sized margins of two different boxes collide, one of it may disappear or behave in the different way.</li>
+        <li> I think, width of an element= (left border width + left padding width + right padding width + right padding border), it is different from box-sizing= border-box because we have to set all element values whereas the border-box you can set an element value. </li>
+        <li>Display inline-block allows to set width and height of .However, the others don't. </li>
+</body>
+</html>
