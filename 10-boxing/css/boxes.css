@@ -1,0 +1,58 @@
+/*header*/
+header {
+    margin: 0rem 1rem 0rem 1rem;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 1rem solid;
+    padding: 1rem;
+    border: 1rem solid;
+    display: block;
+}
+
+/*body*/
+table {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+td:nth-of-type(1) {
+    padding-right: 1rem;
+}
+
+tr:nth-of-type(1) span {
+    border-bottom: 1rem solid;
+}
+
+td:nth-of-type(2) {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+tr:nth-of-type(2) span {
+    border-top: 1rem solid;
+    border-bottom: 1rem solid;
+}
+
+td:nth-of-type(3) {
+    padding-left: 1rem;
+
+}
+tr:nth-of-type(3) span {
+    border-top: 1rem solid;
+
+}
+
+/*footer*/
+footer {
+    margin: 0rem 1rem 0rem 1rem;
+    padding: 1rem;
+}
+
+footer span {
+  border: 1rem solid;
+  padding: 1rem;
+  display: block;
+
+}

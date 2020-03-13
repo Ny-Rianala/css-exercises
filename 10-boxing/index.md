@@ -4,6 +4,7 @@ Here's another puzzle for you!
 
 I want you to make `boxes.html` look like the following:
 
+
 ![](boxes.png)
 
 ## Take note
