@@ -1,0 +1,22 @@
+/* header */
+header {
+    background-image: url('../images/bg_desktop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.lost {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+h1 {
+    color: white;
+    text-align: left;
+    list-style-type: none;
+}
+
+

@@ -1,0 +1,12 @@
+/*posts*/
+blockquote > a {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-weight: bolder;
+    color:black;
+}
+main {
+    text-align: center;
+}
+

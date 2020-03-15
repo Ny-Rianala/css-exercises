@@ -1,0 +1,14 @@
+/* general defaults*/
+header {
+    background-color: lightgray;
+    padding: 8rem;
+}
+
+main {
+    background-color: white;
+    border: transparent;
+    box-sizing: border-box;
+    margin: 1rem;
+    border: 1rem;
+}
+
