@@ -1,7 +1,24 @@
 /*icon*/
-img {
-    padding:16px;
-    border-radius: 50%;
-    height: 32px;
-    width: 32px;
+
+.icon {
+  width: 79px;
+  height: 79px;
+  border-radius: 50%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+.icon[href^="https://facebook"] {
+  background-image: url(../images/icon-facebook.png) ;
+}
+
+.icon[href^="https://twitter"] {
+  background-image: url(../images/icon-twitter.png) ;
+}
+
+.icon[href^="https://github"] {
+  background-image: url(../images/icon-github.png) ;
 }

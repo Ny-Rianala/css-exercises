@@ -4,6 +4,8 @@
 /* The site name and layout for the header */
 @import "header.css";
 
+@import "masthead.css";
+
 /* The handling of links for the site nav */
 @import "nav.css";
 

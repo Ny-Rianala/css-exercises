@@ -1,7 +1,18 @@
-/* link in the first paragraph*/
-.link {
-  color: white;
-  text-align: right;
-
+body > nav {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-block-end: -7rem;
+  margin-inline-start: 1rem;
+  text-align: center;
+}
+body > nav ul {
   text-decoration: none;
+  list-style: none;
+}
+
+body > nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 1rem;
 }

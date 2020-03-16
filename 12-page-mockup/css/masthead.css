@@ -1,0 +1,24 @@
+main > header {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-block-start: 15rem;
+  margin-block-end: 16rem;
+  background-position: center;
+
+}
+main > header h1 {
+  color: white;
+  text-decoration: none;
+}
+
+main > header h2 {
+  color: white;
+  text-decoration: none;
+  font-size: 5.3475;
+}
+
+main > a {
+  text-decoration: none;
+  margin: 2rem;
+}
+
+

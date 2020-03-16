@@ -1,7 +1,29 @@
-/*footer*/
+/*let the footer element manage the spacing.
+We will be using `display`*/
 footer {
-  background-position: center;
-  border-radius: 1rem;
   text-align: center;
+  padding-block-start: 6rem;
+  padding-block-end: 6rem;
+  border-block-start: 12px rgb (220,220,220) solid;
 }
 
+/*switch off the default list style*/
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline;
+  margin: 0 0.5rem;
+}
+
+/*override the spacing on the first and last items*/
+footer li:first-child{
+  margin-inline-end: 0rem;
+}
+
+footer li:last-child {
+  margin-inline-start: 0rem;
+}
