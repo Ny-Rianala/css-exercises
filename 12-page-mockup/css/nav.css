@@ -10,7 +10,6 @@ body > nav ul {
 }
 
 body > nav a {
-  color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bolder;

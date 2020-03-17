@@ -6,12 +6,10 @@ main > header {
 
 }
 main > header h1 {
-  color: white;
   text-decoration: none;
 }
 
 main > header h2 {
-  color: white;
   text-decoration: none;
   font-size: 5.3475;
 }
