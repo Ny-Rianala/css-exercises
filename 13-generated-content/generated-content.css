@@ -1,0 +1,23 @@
+/*Pseudo-elements*/
+/* For pseudo-element, we need to set a special property for the element which is property value*/
+
+/* The funtions that can use are attribute, linear gradient, rgba, rgb, etc*/
+
+/* the various pseudo-elements are: after, before, selector*/
+
+/* We use pseudo-elements because it is responsive.*/
+
+/*Counters*/
+/* We use element [value of the counter]*/
+
+/* In my understanding, we can use `counter-reset`*/
+
+/* Counters are useful for making a list.*/
+
+/*Lists*/
+
+/* background-image, background-position, background-size, list-style, list-style-type, list-style-position.*/
+
+/*There are many such as upper roman, disk, circle, thumbs up sign.*/
+
+/* I think there is not apart from list.*/
