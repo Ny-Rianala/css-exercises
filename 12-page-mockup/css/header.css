@@ -1,7 +1,9 @@
 /* header */
 header {
   background-image: url(../images/bg_desktop.jpg);
+  background: linear-gradient rgba(0, 0, 0, 0.5);
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 header ul {
@@ -12,7 +14,7 @@ header ul {
 
 header li {
   display: inline;
-  margin: 0 0.5rem;
+  margin: 0 0 5rem;
 }
 
 /*override the spacing on the first and last items*/

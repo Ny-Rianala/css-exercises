@@ -1,13 +1,15 @@
 /*Pseudo-elements*/
+
 /* For pseudo-element, we need to set a special property for the element which is property value*/
 
 /* The funtions that can use are attribute, linear gradient, rgba, rgb, etc*/
 
-/* the various pseudo-elements are: after, before, selector*/
+/* the various pseudo-elements are: after, before, selector, first-line*/
 
-/* We use pseudo-elements because it is responsive.*/
+/* We use pseudo-elements because it is responsive or readable view in a small screen.*/
 
 /*Counters*/
+
 /* We use element [value of the counter]*/
 
 /* In my understanding, we can use `counter-reset`*/

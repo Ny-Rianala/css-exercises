@@ -5,11 +5,14 @@ main > header {
   background-position: center;
 
 }
+
 main > header h1 {
   text-decoration: none;
 }
 
-main > header h2 {
+main > header p, h2 {
+  color: white;
+  text-align: center;
   text-decoration: none;
   font-size: 5.3475;
 }
@@ -17,6 +20,7 @@ main > header h2 {
 main > a {
   text-decoration: none;
   margin: 2rem;
+  color: white;
 }
 
 
