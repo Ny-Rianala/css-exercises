@@ -1,6 +1,6 @@
 /*Pseudo-elements*/
 
-/* For pseudo-element, we need to set a special property for the element which is property value*/
+/* For pseudo-element, we need to set a special property for the element which is content*/
 
 /* The funtions that can use are attribute, linear gradient, rgba, rgb, etc*/
 
@@ -18,7 +18,7 @@
 
 /*Lists*/
 
-/* background-image, background-position, background-size, list-style, list-style-type, list-style-position.*/
+/* background-image, background-position, background-size, list-style, list-style-type, list-style-position,list-style-image.*/
 
 /*There are many such as upper roman, disk, circle, thumbs up sign.*/
 

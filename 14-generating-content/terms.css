@@ -1,11 +1,49 @@
 /*
   We need the following numbering structure:
 
-    1. Major clause `<h3>` separated by `<section>`s
-      1.1. Clause (with a List) `<h4>` with a `<ol>` sibling
-        a. List item `<li>`
-        b. List item (with a List) `<li>` with a `<ol>` child
-          i. Nested list item `<li>`
+    1. Major clause `<h3>` separated by `<section>`s* 
+    /*1.1. Clause (with a List) `<h4>` with a `<ol>` sibling*/
+/*body {
+    counter-reset: major-clause;
+}
+
+h3 {
+    counter-reset: clause;
+}
+
+h3::before {
+    counter-increment: major-clause;
+    content: " " counter(major-clause) ".";
+}
+
+h4::before {
+  counter-increment: subsection;
+  content: counter(major-clause) "." counter(clause) " ";
+}
+
+*/
+h3::before {
+  content: counter(major-clause);
+}
+
+h4 > ol >li::before {
+  content: counter(major-clause) ".";
+  content: counter(clause) ".";
+  content: counter(list) ".";
+
+
+      /*  a. List item `<li>`
+        b. List item (with a List) `<li>` with a `<ol>` child*/
+li {
+  counter-increment: alphabeticList;
+  list-style: none;
+}
+
+li::before {
+  content: counter(major-clause) "." counter(clause)" " counter(AlphabeticList, lower-alpha)
+  ".";
+}
+        /*  i. Nested list item `<li>`  
           ii. Nested list item `<li>`
           iii. Nested list item `<li>`
           iv. Nested list item `<li>`
