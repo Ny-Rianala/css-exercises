@@ -3,7 +3,7 @@
 
     1. Major clause `<h3>` separated by `<section>`s* 
     /*1.1. Clause (with a List) `<h4>` with a `<ol>` sibling*/
-/*body {
+body {
     counter-reset: major-clause;
 }
 
@@ -17,38 +17,33 @@ h3::before {
 }
 
 h4::before {
-  counter-increment: subsection;
+  counter-increment: clause;
   content: counter(major-clause) "." counter(clause) " ";
 }
-
-*/
-h3::before {
-  content: counter(major-clause);
-}
-
-h4 > ol >li::before {
-  content: counter(major-clause) ".";
-  content: counter(clause) ".";
-  content: counter(list) ".";
 
 
       /*  a. List item `<li>`
         b. List item (with a List) `<li>` with a `<ol>` child*/
-li {
+        
+ol {
   counter-increment: alphabeticList;
-  list-style: none;
+  list-style-type: lower-alpha;
 }
 
-li::before {
-  content: counter(major-clause) "." counter(clause)" " counter(AlphabeticList, lower-alpha)
-  ".";
+ol::before {
+  list-style: lower-alpha;
 }
-        /*  i. Nested list item `<li>`  
-          ii. Nested list item `<li>`
-          iii. Nested list item `<li>`
-          iv. Nested list item `<li>`
-          …
-        c. List item `<li>`
+/*  i. Nested list item `<li>`  
+    ii. Nested list item `<li>`
+    iii. Nested list item `<li>`
+    iv. Nested list item `<li>`
+      …*/
+
+ol :nth-of-type(2) li{
+  list-style-type: lower-roman;
+
+}
+      /*c. List item `<li>`
         …
       1.2. Clause `<h4>`
       …

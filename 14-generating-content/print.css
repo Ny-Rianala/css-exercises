@@ -2,8 +2,18 @@
 @media all {
 
 }
-
 /* Only styles for printers please */
 @media print {
+}
 
+a::after {
+    content: " [" attr(href) "]";
+}
+
+abbr::after {
+  content: "[" attr(title) "]";
+}
+
+blockquote::after {
+  content:"[" attr(cite) "]";
 }
