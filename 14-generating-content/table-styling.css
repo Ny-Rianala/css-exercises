@@ -1,0 +1,23 @@
+These are the properties associate with table
+/*Table-layout: inherited, auto. It sets the cells, rows, culumn of the table.*/
+
+/*Border-spacing: it sets the distance between the borders of adjacent cells.*/
+
+/*Border-collapse: it sets the border model of the table.*/
+
+/*Caption side: it specifies the position of the table.*/
+
+/*Empty cells: it is used to show or hide the borders. Inherited.*/
+
+/*Stumulating HTML table*/
+
+/*They correspond to the ID's attribute of the <th>*/
+
+/*Research*/
+
+/*We needs to set `border-collapse: separate`*/
+
+/*Table layout-fixed according to MDN, the widths of the table and its cells are adjusted to fit the content.
+For the table layout-fixed, Table and column widths are set by the widths of table and col elements or by the width of the first row of cells. Cells in subsequent rows do not affect column widths.*/
+
+
