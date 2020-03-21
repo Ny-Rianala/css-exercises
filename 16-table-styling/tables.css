@@ -1,0 +1,22 @@
+/* set table-layout to the body*/
+
+body {
+  width: 600px;
+  height: 600px;
+  border: 1px solid;
+  table-layout: fixed;
+}
+
+/*arrange the text*/
+section p{
+  display: table-cell;
+  align-items: center;
+  padding: 1rem;
+}
+
+h2 {
+  display: table-cell;
+  vertical-align: middle;
+  padding-inline-start: 5rem;
+  font-size: 1rem;
+}
