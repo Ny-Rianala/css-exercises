@@ -3,7 +3,7 @@
 body {
   width: 600px;
   height: 600px;
-  border: 0;
+  border: 1rem;
   table-layout: fixed;
 }
 

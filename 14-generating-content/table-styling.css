@@ -1,18 +1,25 @@
 These are the properties associate with table
-/*Table-layout: inherited, auto. It sets the cells, rows, culumn of the table.*/
+/*Table-layout: fixed, auto. It sets the cells, rows, culumn of the table.*/
 
 /*Border-spacing: it sets the distance between the borders of adjacent cells.*/
 
-/*Border-collapse: it sets the border model of the table.*/
+/*Border-collapse: separate, collapse,  it sets the border model of the table.*/
 
-/*Caption side: it specifies the position of the table.*/
+/*Caption side: top it specifies the position of the table.*/
 
 /*Empty cells: it is used to show or hide the borders. Inherited.*/
 
 /*Stumulating HTML table*/
 
-/*They correspond to the ID's attribute of the <th>*/
-
+/*table: table
+table-row-group: tbody
+table-header-group: thead
+table-footer-group: tfoot
+table-row: tr
+table-cell: 
+table-column-group: colgroup
+table-column: col
+table-caption: caption
 /*Research*/
 
 /*We needs to set `border-collapse: separate`*/
