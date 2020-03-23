@@ -1,0 +1,15 @@
+/*Default value for each of these properties*/
+
+/*Overflow :visible (hidden, auto, scroll). It is very useful because to fit our text when an element's content is too big.
+
+/*Clip: auto. It is useful to mask the content of an element to be rectangle. Specify the position: absolute or fixed.
+
+Clip-path: none, circle, poligon, ellipsis. It is useful for an image.
+
+Text-overflow: ellipsis: it is useful because it set a  signnal to the users tha there is a hidden  content.
+
+/*General questions*/
+/* Ellipsis: indicates the ommission of the part of a sentence, it represent clipped text;
+   Ellipse: it is an element in an svg(according to MDN).
+   Text-overflow is different from the other properties it can be clipped.*/
+
