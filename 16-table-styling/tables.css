@@ -3,12 +3,12 @@
 body {
   width: 600px;
   height: 600px;
-  border: 1px solid;
+  border: 0;
   table-layout: fixed;
 }
 
 /*arrange the text*/
-section p{
+section p {
   display: table-cell;
   align-items: center;
   padding: 1rem;
@@ -19,4 +19,9 @@ h2 {
   vertical-align: middle;
   padding-inline-start: 5rem;
   font-size: 1rem;
+}
+
+/*set the paragraph in the same column*/
+section {
+  display: table-row;
 }
