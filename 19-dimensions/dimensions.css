@@ -1,0 +1,40 @@
+/*Default values
+Width: auto
+Height: auto
+Min-width: 0
+Max-width: none
+min-width: 0
+max-width: none
+
+/*A min-width value is greater than a width*/
+.example {
+  color: black;
+  border: lightblue solid;
+  width: 100px;
+  min-width: 150px;
+}
+
+/* if the max-width value is less than a width the text inside the content overflows*/
+.width {
+  color:red;
+  border: pink solid;
+  width: 100px;
+  max-width: 50px;
+}
+
+/*if a `min-width` value is greater than a `max-width` value*/
+.min_width {
+  color: brown;
+  border:burlywood solid;
+  max-width: 100px;
+  min-width: 150px;
+}
+
+.table {
+  border: plum 1px solid;
+  width: 50%;
+  display: table-cell;
+  height: 100px;
+}
+
+
