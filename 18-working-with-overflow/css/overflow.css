@@ -1,29 +1,28 @@
 /*clipping*/
-div.overflow-invisible {
-  overflow: hidden;
-}
-#overflow-invisible {
+#overflow_invisible .example {
   overflow: hidden;
 }
 
 /* Scrolling*/
-#overflow-scroll {
+#overflow_scroll .example {
   overflow: scroll;
 }
-
-div.example {
-  overflow: scroll;
-}
-
 
 /*clipping*/
-/*div.example {
+#clipping_circle .example {
   clip-path: circle(10% at 64.5% 25%);
-  overflow: auto;
 }
 
+#clipping_poly .example {
+  clip-path: polygon(2 0 0 2 2 0);
+}
+
+#overclip .example {
+  overflow: hidden;
+  clip-path: (20% at 80% 50%);
+}
 /*Text overflow*/
-div.overflow-ellipsis {
+#overflow_ellipsis .example {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
