@@ -1,4 +1,35 @@
-section {
-  overflow: auto;
-  
+/*clipping*/
+div.overflow-invisible {
+  overflow: hidden;
 }
+#overflow-invisible {
+  overflow: hidden;
+}
+
+/* Scrolling*/
+#overflow-scroll {
+  overflow: scroll;
+}
+
+div.example {
+  overflow: scroll;
+}
+
+
+/*clipping*/
+/*div.example {
+  clip-path: circle(10% at 64.5% 25%);
+  overflow: auto;
+}
+
+/*Text overflow*/
+div.overflow-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
+
+
+
