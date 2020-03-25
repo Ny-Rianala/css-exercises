@@ -10,7 +10,7 @@ max-width: none
 .example {
   color: black;
   border: lightblue solid;
-  width: 100px;
+  width: 100%;
   min-width: 150px;
 }
 
@@ -18,7 +18,7 @@ max-width: none
 .width {
   color:red;
   border: pink solid;
-  width: 100px;
+  width: 100%;
   max-width: 50px;
 }
 

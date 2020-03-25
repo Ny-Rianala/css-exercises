@@ -1,0 +1,18 @@
+img {
+  max-width: 100%;
+}
+
+img [widht] [height] {
+  width: auto;
+  height:auto;
+}
+
+table {
+  min-width: 320px;
+  overflow: auto;
+}
+
+svg {
+  max-height: 100vh;
+  max-width: 100vw;
+}
