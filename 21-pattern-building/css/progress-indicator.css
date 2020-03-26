@@ -1,0 +1,19 @@
+ol{
+  counter-reset: clause;
+  background-color: darkcyan;
+}
+
+ol::before {
+  counter-increment: major-clause;
+  content: " " counter(major-clause) ".";
+}
+
+li::before {
+counter-increment: clause;
+content: counter(major-clause) "." counter(clause) " ";
+}
+
+
+
+
+

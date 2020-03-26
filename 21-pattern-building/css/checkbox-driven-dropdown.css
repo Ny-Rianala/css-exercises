@@ -6,11 +6,6 @@ input[type="checkbox"]:checked ~ .dropdown_contents {
   display: block;
 }
 
-/*switch off the default list style*/
-ul li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+
 
 
