@@ -1,14 +1,18 @@
 /*style the list*/
-.breadcrumb ol {
+nav.breadcrumb ol{
+  background-color: cadetblue;
+  padding: 10px 16px;
+}
+
+nav.breadcrumb ol li{
   display: inline-block;
 }
 
-.ally li::before {
-  background-color: black;
+.breadcrumb li+li::before {
   content: "/";
 }
 
-.ally li:first-child::before {
-  content: "#/";
+.breadcrumb li:first-child::before {
+  content: "";
 }
 
