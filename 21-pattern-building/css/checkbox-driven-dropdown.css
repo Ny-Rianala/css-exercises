@@ -1,41 +1,16 @@
-/*input [checkbox] {
-  width: 100px;
-  height: 100px;
-
-}
-.dropdown_checkbox {
-  display: inline-block;
-  
-}*/
-
-/*div, label {
-  margin: 8px;
+.dropdown_contents {
+  display: none;
 }
 
-input [type="checkbox"] :checked {
-  
+input[type="checkbox"]:checked ~ .dropdown_contents {
+  display: block;
 }
 
-ul checked {
-  
-}*/
-/*input[type=checkbox] {
-    visibility: hidden;
+/*switch off the default list style*/
+ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-input[type="checkbox"]:checked {
-    display: inline-block;
-  }
-*/
-:checked dropdown_checkbox {
-  display: inline-block;
-  height: 1rem;
-  width: 1rem;
-}
 
-:checked dropdown_contents {
-  content:'';
-  display:inline-block;
-  width:24px;
-  height:24px;
-}

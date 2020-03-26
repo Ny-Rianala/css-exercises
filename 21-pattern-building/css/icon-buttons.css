@@ -1,23 +1,11 @@
-.icon-icon_left::before {
+a.icon::before {
   content: " ";
   background-image: url(../image/icon-facebook.png);
-  width: 79px;
-  height: 79px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   background-size: contain;
   background-repeat: no-repeat;
   display: inline-block;
+  background-position: right;
 }
-
-.icon-icon_right::before {
-  content: " ";
-  background-image: url(../image/icon-facebook.png);
-  width: 79px;
-  height: 79px;
-  border-radius: 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: inline-block;
-}
-
-

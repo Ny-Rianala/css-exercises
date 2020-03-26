@@ -1,0 +1,14 @@
+/*style the list*/
+.breadcrumb ol {
+  display: inline-block;
+}
+
+.ally li::before {
+  background-color: black;
+  content: "/";
+}
+
+.ally li:first-child::before {
+  content: "#/";
+}
+
