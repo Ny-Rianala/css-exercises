@@ -1,4 +1,4 @@
-a.icon::before {
+.icon-icon_left::before {
   content: " ";
   background-image: url(../image/icon-facebook.png);
   width: 32px;
@@ -7,5 +7,22 @@ a.icon::before {
   background-size: contain;
   background-repeat: no-repeat;
   display: inline-block;
-  background-position: right;
+}
+
+.icon-icon_right::after{
+  content: " ";
+  background-image: url(../image/icon-facebook.png);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+a {
+  background-color: lightseagreen;
+  display: inline-block;
+  margin-right: 8px; 
+  margin-top: 4px;
 }

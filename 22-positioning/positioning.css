@@ -1,7 +1,17 @@
 /* the default for positioning is static.*/
-/*The properties that we need to supply  when using non-default position value:*/
+/*The properties that we need to supply when using non-default position value:*/
 /*Display value that has been positioned is display: inline-block.*/
-/*The special about fixed and sticky positioning is: they are determined tth values top, right, bottom, left.*/
+/*The special about fixed and sticky positioning is: they are determined the values top, right, bottom, left.*/
+.example {
+  color: chocolate;
+  border: 1px solid;
+  background-size: contain;
+  position: fixed;
+  top: 20px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+}
 /*Positioning element absolutely: */
 
 /*Absolute positioned layouts useful for a table,*/
