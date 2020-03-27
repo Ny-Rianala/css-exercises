@@ -1,0 +1,14 @@
+/* Positioning outside*/
+section :nth-of-type(2) > div .circle {
+  position: absolute;
+  width: 50%;
+  top: -56px;
+  right: -80px;
+}
+
+section :nth-of-type(2) > div .circle {
+  position: absolute;
+  width: 50%;
+  top: 360px;
+  left: 140px;
+}
