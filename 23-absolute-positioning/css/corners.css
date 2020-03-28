@@ -1,33 +1,32 @@
-/*Positioning the circle*/
-section :nth-of-type(1) > div .circle {
+/*Positioning*/
+section:nth-of-type(1) div > .circle{
   width: 25%;
-  position: relative;
-  bottom:-156px;
+  position: absolute;
+  bottom: -153px;
   left: 150px;
 }
 
-section :nth-of-type(1) > div .rect {
+section:nth-of-type(1) > div .rect {
   width: 25%;
-  position: relative;
-  top: 0px;
-  right: 55px;
+  position: absolute;
+  top: auto;
+  right: 217px;
 }
 
-section :nth-of-type(1) > div .pipe {
+section:nth-of-type(1) > div .pipe {
   width: 25%;
-  position: relative;
-  bottom: -156px;
-  right: 109px;
+  position: absolute;
+  bottom: -154px;
+  right: 229px;
 }
 
-section :nth-of-type(1) > div .bar {
+section:nth-of-type(1) > div .bar {
   width: 25%;
-  position: relative;
-  top: -56px;
+  position: absolute;
+  top: auto;
   left: 150px;
 }
 
-section :nth-of-type(1) > div {
+section:nth-of-type(1) > div {
   height: 206px;
-
 }
