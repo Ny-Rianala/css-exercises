@@ -1,19 +1,86 @@
-ol{
-  counter-reset: clause;
-  background-color: darkcyan;
+.ally {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  white-space: nowrap;
+
+}
+.progress_indicator {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
 }
 
-ol::before {
-  counter-increment: major-clause;
-  content: " " counter(major-clause) ".";
+/*
+1.Back links - an anchor
+2.Current steps - has bold
+3.Future steps - spans
+*/
+
+.progress_indicator li > * {
+  display: block;
+  padding: 1rem;
+  color: black;
+  background-color: gray;
+  padding-inline-start: 3rem;
+  position: relative;
 }
 
-li::before {
-counter-increment: clause;
-content: counter(major-clause) "." counter(clause) " ";
+.progress_indicator li {
+  counter-increment: step_number;
+}
+
+.progress_indicator li > *::before {
+  content: counter(step_number);
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: -0.5rem;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1rem;
+  border-radius: 50%;
 }
 
 
+/*Back links or previous steps*/
+.progress_indicator a {
+  text-decoration: none;
+}
+
+.progress_indicator a::before {
+  background-color: green;
+  color:  white;
+}
+/*Current step*/
+.progress_indicator b::before {
+  background-color: gold;
+}
+
+/*Future step*/
+.progress_indicator span {
+  opacity: 0.75;
+}
+.progress_indicator span::before {
+  background-color: red;
+  color: white;
+}
+
+.progress_indicator::after {
+  content: "";
+  width: 0.25rem;
+  position: absolute;
+  top: 1rem;
+  left: 1.75rem;
+  bottom: 1rem;
+  background-color: gray;
+  margin-inline-start: -0.125rem;
+  z-index: -1;
 
 
-
+}
