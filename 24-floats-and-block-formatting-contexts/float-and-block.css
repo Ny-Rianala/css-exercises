@@ -1,0 +1,12 @@
+/*Floats and clear
+1. Default values: none.
+2. Possible value for clear: left, right, both. Inherit is a clear value for its element.
+3. The rule associated with a floated item is 
+4. I think we can but it depends on the width and the height of the element.
+5. There is but I think it is not reliable. Also, we can use flex if we want. 
+
+BFC (Block formatting context)
+1. BFC means when the elements in HTML is all about floating. For example when the elements to flow outside the box. 
+2. Properties: overflow, margin, padding.
+
+
