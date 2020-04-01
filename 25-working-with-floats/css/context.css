@@ -1,0 +1,13 @@
+section:nth-of-type(1) .container img[src="images/inspector_gadget.jpg"] {
+  float: left;
+}
+
+section:nth-of-type(1) .container img[src="images/doctor_claw.png"] {
+  float: right;
+}
+
+section :nth-of-type(1) .container img[src="images/doctor_claw.png"] + p {
+  clear: left;
+}
+  
+

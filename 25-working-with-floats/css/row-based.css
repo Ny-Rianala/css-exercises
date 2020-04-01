@@ -1,0 +1,65 @@
+/*.form_toolbar {
+  float: right;
+  margin-top:-3.5rem;
+} 
+
+label {
+  float: right;
+  margin-left: 1rem;
+  margin-inline-end: 360px;
+  text-align: right;
+}
+
+.field {
+  float: right;
+  margin-inline-start: 50px;
+  margin-inline-end: 125px;
+  margin-top: -2px;
+}
+
+section:last-child div {
+  float: right;
+  margin-top: 1px;
+}
+
+header {
+  float: left;
+}
+form {
+  float: left;
+}*/
+
+header h3 {
+  float: left;
+  line-height: 36px;
+  margin-bottom: 2rem;
+}
+
+.form_toolbar {
+  float: right;
+  line-height: 39px;
+  margin-top: 2rem;
+}
+
+.form_row {
+  clear: both;
+}
+
+.form_row label {
+  float: left;
+  line-height: 36px;
+  width: 9rem;
+  text-align: right;
+  margin-inline-end: 1rem;
+}
+
+.field {
+  margin: 1rem;
+}
+
+button {
+  margin-inline-start: 10rem;
+}
+
+
+
