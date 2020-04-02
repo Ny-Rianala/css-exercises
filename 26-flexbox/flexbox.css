@@ -1,0 +1,56 @@
+/*1. The 2 1 represent the values of flex-grow and flex-shrink. auto represent flex-basis(width and height).
+2. We use flex-wrap.
+
+3. Align-content has no effect on a single line. It has no effect on items that are not wrapped.
+
+4. It is the align-self.
+5. Box-sizing.
+6. We also use flex-direction: row-reverse.
+7. We can set justify-content: space-between if we still have free space. If not we have to add a height on the container than it is required to display the items.
+*/
+body {
+  padding: 20px;
+  font: 1em Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+* {box-sizing: border-box;}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+.container {
+  /*border: 2px solid rgba(234, 41, 44, 0.5);*/
+  border-radius: .5em;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+  height: 250px;
+  background-color: lightgray;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: rgba(134, 4, 65, 0.5);
+  border: 1px solid rgba(235, 12, 23, 0.5);
+  text-align: center;
+}
+
+div:nth-of-type(1) {
+  align-self: flex-start;
+}
+
+div:nth-of-type(2) {
+  align-self: center;
+  background-color: lightskyblue;
+}
+
+div:nth-of-type(3) {
+  align-self: flex-end;
+  background-color: lightcoral;
+
+}
