@@ -17,8 +17,13 @@ main > header {
 main > header > h2 {
   font-size: 4rem;
   margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-inline-start: 600px;
 }
 
 main > header > p {
   margin: 0;
+  margin-inline-start: 550px;
 }
