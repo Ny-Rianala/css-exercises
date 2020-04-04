@@ -1,27 +1,14 @@
 section:nth-of-type(1) div > .container {
   display: flex;
   flex-direction: row;
-  justify-content: ;
-  height: 250px;
-  width: 250px;
+  justify-content: center;
   flex-flow: row-reverse;
 }
 
-section:nth-of-type(1) div > .circle {
-  align-self: flex-end;
-  flex-basis: 50%;
+section:nth-of-type(2) div > .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
 }
 
-section:nth-of-type(1) div > .rect {
-  align-self: flex-start;
-  flex-wrap: wrap;
-}
-
-section:nth-of-type(1) div > .pipe {
-  align-items: flex-end;
-  flex-basis: 25%;
-}
-
-section:nth-of-type(1) div > .bar {
-align-self: flex-start;
-}

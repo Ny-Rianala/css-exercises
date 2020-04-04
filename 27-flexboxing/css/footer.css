@@ -2,13 +2,24 @@ footer ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  align-items: center;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
+
 
 footer p {
   color: #999;
   display: flex;
   justify-content: center;
+  margin-inline-start: -8rem;
+}
+
+nav ul {
+  margin: 5rem;
+  margin-inline-start: -2rem;
+}
+
+footer {
+  line-height: 10rem;
 }

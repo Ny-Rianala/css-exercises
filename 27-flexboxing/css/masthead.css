@@ -11,19 +11,37 @@ main > header {
   color: #fff;
   padding: 4rem 0;
   box-sizing: border-box;
-  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  margin-block-start: -30rem;
+  min-height: 30rem;
+  margin-block-start: -2.5rem;
 }
 
 main > header > h2 {
   font-size: 4rem;
   margin: 0;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  margin-inline-start: 600px;
 }
 
 main > header > p {
   margin: 0;
-  margin-inline-start: 550px;
+  align-items: center;
+}
+
+main {
+  z-index: 2;
+  position: relative;
+}
+
+main header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 400px) {
+  main header {
+    margin-inline-start: -7rem;
+  }
 }

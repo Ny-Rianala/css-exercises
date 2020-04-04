@@ -1,5 +1,5 @@
 .icon {
-  /*display: block;*/
+  display: block;
   width: 60px;
   height: 60px;
   background-position: 50% 50%;
@@ -7,10 +7,8 @@
   background-repeat: no-repeat;
   text-indent: -999rem;
   border-radius: 50%;
-  justify-content: space-between;
   align-items: center;
-  display: flex;
-  
+  margin-inline-start: 2rem;
 }
 
 .icon[href^="https://facebook"] {
@@ -26,9 +24,9 @@
 a.icon {
   transition: transform .2s ease-in-out;
   transform: scale(1);
-  justify-content: space-between;
 }
 
 a.icon:hover {
   transform: scale(1.2);
 }
+
