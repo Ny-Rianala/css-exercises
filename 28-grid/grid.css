@@ -1,0 +1,75 @@
+/*Grid*/
+/*set grid-template-columns*/
+#grid {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  grid-column-gap: 2px;
+}
+
+#gridH {
+  background-color: aquamarine;
+}
+
+#gridF {
+  background-color: cadetblue;
+}
+
+#items {
+  display: grid;
+  height: 100px;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: 35px;
+  text-align: center;
+}
+
+#item1 {
+  background-color: red;
+  grid-column: 2 / 5;
+}
+
+#item2 {
+  background-color: rosybrown;
+  grid-column-start: 6;
+  grid-column-end: 9;
+}
+#item3 {
+  background-color: salmon;
+  grid-column: 10 / 12;
+}
+
+#templatearea{
+  display: grid;
+  width: 100px;
+  height: 200px;
+  grid-template-areas: box1 
+                       box2
+                       box3;
+  grid-template-rows: 50px 1fr 50px;
+  grid-template-columns: 200px 1fr;
+}
+
+#templatearea > header {
+  background-color: skyblue;
+  grid-area: 30px 1fr;
+}
+
+#templatearea > main {
+  background-color: tomato;
+  grid-area: 40px 1fr;
+}
+
+#templatearea > footer {
+  background-color: limegreen;
+  grid-area: 30px 1fr;
+}
+/* There are three columns: small,large and medium.
+According to FreeCampCode's web Flexbox is designed for one-dimensional layouts, and Grid for two-dimensional layouts.
+
+Flex can be arranged in any direction.Items can be aligned in our container or between them.
+
+Reduces file size. Also, It is fast and efficient.
+
+grid-template-columns: 10rem(4)
+
