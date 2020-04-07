@@ -6,6 +6,7 @@
   list-style: none;
   margin: 0;
   margin-block-start: 0.75rem;
+  margin-block-end: 30px;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(6, 145px);
