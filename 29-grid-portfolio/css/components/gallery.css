@@ -6,12 +6,16 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(6, 145px);
+
 }
 
 /*
   Each `li` is a grid-item
 */
 .gallery li {
+  
 
 }
 
@@ -35,7 +39,7 @@
 }
 
 .gallery img {
-
+  
 }
 
 .gallery figcaption {

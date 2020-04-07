@@ -8,3 +8,7 @@ body > footer {
 body > footer a {
   color: #fff;
 }
+
+body > footer {
+  display: grid;
+}
