@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(6 , 145px);
   column-gap: 15px;
+  margin-block-start: 30px;
 }
 
 .works_item_header {
