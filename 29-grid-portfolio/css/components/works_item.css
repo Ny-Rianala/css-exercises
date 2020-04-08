@@ -26,6 +26,10 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(6 , 145px);
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .works_item_navigation a {
@@ -33,6 +37,7 @@
   color: #ccc;
   padding: 0.75rem;
   text-decoration: none;
+  margin-inline-start: -0.75rem;
 }
 
 .works_item_navigation a b,
