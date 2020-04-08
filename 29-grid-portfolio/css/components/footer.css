@@ -4,7 +4,8 @@ body > footer {
   border-block-start: 1px solid #4d4d4d;
   padding-block-start: 0.75rem;
   display: grid;
-  grid-row-end: 4;
+  grid-template-columns: repeat(6 , 145px);
+  column-gap: 15px;
 }
 
 body > footer p {

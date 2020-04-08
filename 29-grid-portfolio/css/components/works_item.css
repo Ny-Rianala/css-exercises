@@ -1,17 +1,24 @@
 .works_item {
-
+  display: grid;
+  grid-template-columns: repeat(6 , 145px);
+  column-gap: 15px;
 }
 
 .works_item_header {
   color: #ccc;
+  grid-column: 1 / 2;
 }
 
 .works_item_content {
-
+  display: grid;
+  grid-template-columns: repeat(5 , 145px);
+  column-gap: 15px;
 }
 
 .works_item_image_container {
-
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 6;
 }
 
 .works_item_navigation ul {
