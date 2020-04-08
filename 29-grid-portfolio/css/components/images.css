@@ -1,7 +1,7 @@
 .image_full {
-
 }
 
 .image_half {
-
+  width: calc (465px);
+  margin-inline-end: 30px;
 }
