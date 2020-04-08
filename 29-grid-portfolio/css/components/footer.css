@@ -3,6 +3,8 @@ body > footer {
   font-size: 0.75rem;
   border-block-start: 1px solid #4d4d4d;
   padding-block-start: 0.75rem;
+  display: grid;
+  grid-row-end: 4;
 }
 
 body > footer p {
@@ -16,10 +18,6 @@ body > footer a {
 
 body > footer a:hover {
   color: #fff18f;
-}
-
-body > footer p:last-child {
-
 }
 
 body > footer p:last-child a {
@@ -36,6 +34,13 @@ body > footer p:last-child a::before {
   filter: grayscale(1);
 }
 
-body > footer {
+footer > p:last-child {
+  grid-column-start: 6;
+  grid-column-end: 6;
+
+}
+
+footer {
   display: grid;
+  margin-block-start: 360px;
 }

@@ -7,19 +7,16 @@
 
 .heading_page {
   display: grid;
-  grid-template-columns: repeat(5 , 145px);
   grid-column: 1 / 2;
 }
 
 img {
   display: grid;
-  grid-template-columns: repeat(5 , 145px);
   grid-column: 2 / 4;
 }
 
 main > p {
   display: grid;
-  grid-template-columns: repeat(5 , 145px);
   grid-column: 4 / 6;
 }
 
