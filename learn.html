@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+      :root {
+        --columns: 4;
+        --cell-color: red;
+        --base-unit: 2rem;
+        --base-unit: calc(var(--columns) / 2 *1rem);
+    }
+
+    ul {
+      display: grid;
+      grid-template-columns:repeat(var(--columns), 1fr);
+      list-style: none;
+      padding: 0;
+      text-align: center;
+      gap: var(--base-unit);
+      font-size: var(--base-unit);
+      line-height: 1;
+    }
+
+    li {
+      background-color: var(--cell-color);
+    }
+
+    li:nth-of-type(2) {
+      --base-unit: 1rem;
+      /*font-size: var(--base-unit);*/
+    }
+
+    @media(min-width: 640px) {
+      :root {
+        --columns:4;
+      }
+      @media(min-width: 1024px) {
+      :root {
+        --columns:6;
+
+    }
+  </style>
+</head>
+<body>
+    <ul>
+      <li>cell</li>
+      <li>cell</li>
+      <li>cell</li>
+      <li>cell</li>
+      <li>cell</li>
+      <li>cell</li>
+      <li>cell</li>
+      <li>cell</li>
+      <li>cell</li>
+      <li>cell</li>
+      <li>cell</li>
+      <li>cell</li>
+    </ul>
+</body>
+</html>
+  
