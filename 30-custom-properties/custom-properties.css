@@ -1,0 +1,8 @@
+/*1. We have to use -- name
+2. We can't use only a hyphen.
+3. We can assign text or number.
+4. It is useful to create Custom Properties using the : root or html when we want to applied them to the entirety elements
+5. It is not useful when we have inherited elements.
+6. There are several ways to override or change a Custom Property are: we can use var , 
+7. Custom Properties are useful because our code is not overwritten.
+8. We only can use Custom Properties for 
