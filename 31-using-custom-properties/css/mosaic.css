@@ -1,13 +1,10 @@
-/*
-  … etc …
 
-  This would get crazy if I had to write out each and every anchor within each row, setting the unique `hsla()` per anchor.
-*/
 :root{
-  --hue:380deg;
+  --alpha: 0.5;
+
 }
 
-.row a:nth-of-type(1){
+ .row a:nth-of-type(1){
   --alpha: 0.1;
 }
 
@@ -37,6 +34,7 @@
 
 .row a:nth-of-type(8){
   --alpha: 0.8;
+  --alpha-multiplier:8;
 }
 
 .row a:nth-of-type(9){
@@ -45,12 +43,49 @@
 
 .row a:nth-of-type(10){
   --alpha: 1.0;
+} 
+
+
+.row:nth-of-type(1){
+  --hue: calc(36deg * 1);
+}
+
+.row:nth-of-type(2){
+  --hue: calc(36deg * 2);
+}
+
+.row:nth-of-type(3){
+  --hue: calc(36deg * 3);
+}
+
+.row:nth-of-type(4){
+  --hue: calc(36deg * 4);
+}
+
+.row:nth-of-type(5){
+  --hue: calc(36deg * 5);
+}
+
+.row:nth-of-type(6){
+  --hue: calc(36deg * 6);
+}
+
+.row:nth-of-type(7){
+  --hue: calc(36deg * 7);
+}
+
+.row:nth-of-type(8){
+  --hue: calc(36deg * 8);
+}
+
+.row:nth-of-type(9){
+  --hue: calc(36deg * 9);
+}
+
+.row:nth-of-type(10){
+  --hue: calc(36deg * 10);
 }
 
 .row a {
   background-color: hsla(var(--hue), 100%, 50%, var(--alpha));
 }
-
-/*a {
-  background-color: hsla(var(--hue) 100%, 50%, var(--alpha));
-}*/
