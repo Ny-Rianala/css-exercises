@@ -1,48 +1,53 @@
 
 :root{
-  --alpha: 0.5;
+  --alpha: 0.1;
+  --alpha-value:calc(var(--alpha) * var(--alpha-multiplier));
+  --alpha-multiplier: 1;
+}
 
+.row a {
+  background-color: hsla(var(--hue), 100%, 50%, var(--alpha-value));
 }
 
  .row a:nth-of-type(1){
-  --alpha: 0.1;
+  --alpha-multiplier: 1;
 }
 
 .row a:nth-of-type(2){
-  --alpha: 0.2;
+  --alpha-multiplier: 2;
 }
 
 .row a:nth-of-type(3){
-  --alpha: 0.3;
+  --alpha-multiplier: 3;
 }
 
 .row a:nth-of-type(4){
-  --alpha: 0.4;
+  --alpha-multiplier: 4;
 }
 
 .row a:nth-of-type(5){
-  --alpha: 0.5;
+  --alpha-multiplier: calc(var(--alpha-multiplier-multiplier) * 5);
 }
 
 .row a:nth-of-type(6){
-  --alpha: 0.6;
+  --alpha-multiplier: 6;
 }
 
 .row a:nth-of-type(7){
-  --alpha: 0.7;
+  --alpha-multiplier: 7;
 }
 
 .row a:nth-of-type(8){
-  --alpha: 0.8;
-  --alpha-multiplier:8;
+  --alpha-multiplier: 8;
+  --alpha-multiplier-multiplier:8;
 }
 
 .row a:nth-of-type(9){
-  --alpha: 0.9;
+  --alpha-multiplier: 9;
 }
 
 .row a:nth-of-type(10){
-  --alpha: 1.0;
+  --alpha-multiplier: 1.0;
 } 
 
 
@@ -86,6 +91,4 @@
   --hue: calc(36deg * 10);
 }
 
-.row a {
-  background-color: hsla(var(--hue), 100%, 50%, var(--alpha));
-}
+
