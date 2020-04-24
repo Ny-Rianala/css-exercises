@@ -1,10 +1,10 @@
-/*1. A calc() funtion can support number, integer, percentage, frequency,
+/*1. A calc() funtion can support number, integer, percentage, frequency, normal text(string), fraction
  2. We can cotrol it by using calc((2 + 3) *2)
- 3. 
+ 3. We can't convert 
  4. We can convert it by multiplying the value to 1 or adding 0 , and whatever the unit we want to set.
  5. They must have white-space between them because  
- 6. We use negative symbol. For example, multiply the value by '-1'
- 7. We can by using substraction or adding it if you set the value of the percentage into negative.*/
+ 6. We use negative symbol. For example, multiply the value by negative number'-1'
+ 7. No.*/
 
 .text-1 {
   width: 100%;
@@ -14,7 +14,7 @@
   background: lightcoral;
   margin-inline-start: 1rem;
 }
-
+/*we can make unit using - or + */
 .text-2 {
   width: calc(60% - 1em);
   float: right;
