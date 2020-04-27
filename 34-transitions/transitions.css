@@ -1,10 +1,13 @@
-/* Trasition-properties, transition-duration, 
+/* Trasition-properties, transition-duration, transition delay
 2. Timing function delay specifies the duration to wait before starting a prpperty's transition.
 whereas specifies the length of time a transition animation should taket to complete.
 3. We can.For transition: width 2s, height 2s;
-4. 
-5. 
+4. Usi
+5.
 6. Yes, they are useful to show a progression.
-7.Transitions can be a problem when
+7.Transitions can be a problem when we are in a rush.
 8.It doesn't rely on the 'auto' because
 9.We can use transitions delay.
+ eg: 0 delay,
+     2 delay,
+     3 delay,
