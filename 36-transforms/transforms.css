@@ -1,0 +1,8 @@
+/* Functions that we can use in a tranform value are: scale(), matrix(), perspective(), skew(), rotate(), translate3d(), translate()
+We use the separated properties because it keeps the width and height.
+Transform: translate(), rotate();
+It is better to use transform: translate() rather than a position because it sets the object in tne middle.
+
+When an element is translated/transformed they move in a direction. 
+We use transform: perspective()
+We can adjust a transform-box: border-box.
