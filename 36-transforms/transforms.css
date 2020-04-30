@@ -2,7 +2,7 @@
 We use the separated properties because it keeps the width and height.
 Transform: translate(), rotate();
 It is better to use transform: translate() rather than a position because it sets the object in tne middle.
-
 When an element is translated/transformed they move in a direction. 
+
 We use transform: perspective()
-We can adjust a transform-box: border-box.
+We can adjust a transform-box: border-box, padding-box, content-box and view-box
