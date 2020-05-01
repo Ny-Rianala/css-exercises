@@ -60,5 +60,7 @@
 }
 
 .user-interface :checked ~ nav {
-
+  transform: scaleX(0);
 }
+
+
