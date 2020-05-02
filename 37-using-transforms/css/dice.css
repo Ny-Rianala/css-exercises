@@ -67,7 +67,7 @@
   background-position:
     20% 20%,
     80% 80%;
-    transform: rotateY(-100deg) translateZ(125px);
+    transform: rotateX(-90deg) translateZ(125px);
 }
 
 #face-3 {
@@ -79,7 +79,7 @@
     20% 20%,
     50% 50%,
     80% 80%;
-    transform: rotateY( 90deg) translateZ(125px);
+    transform: rotateY(90deg) translateZ(125px);
 }
 
 #face-4 {
@@ -93,7 +93,7 @@
     20% 80%,
     80% 20%,
     80% 80%;
-    transform: rotateX( 90deg) translateZ(125px);
+    transform: rotateY(-90deg) translateZ(125px);
 }
 
 #face-5 {
@@ -109,7 +109,7 @@
     50% 50%,
     80% 20%,
     80% 80%;
-    transform: rotateX(-90deg) translateZ(125px)
+    transform: rotateX(90deg) translateZ(125px)
 }
 
 #face-6 {
