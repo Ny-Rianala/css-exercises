@@ -14,6 +14,7 @@
 
 .sphere {
   border-radius: 50%;
+
 }
 
 .pivot {
@@ -21,6 +22,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
 }
 
 .orbit {
@@ -38,23 +40,28 @@
   height: var(--sun-size);
   background-image: var(--glow);
   box-shadow: 0 0 50px 0 rgba(255, 252, 211, 0.9);
+  position: absolute;
 
 }
 
 #earth-system {
   width: var(--earth-system-size);
   height: var(--earth-system-size);
-  transform: translate(100px, -50px);
+  transform:translate(100px, -50px) rotate(1turn);
 }
+ 
 
 #earth {
+  position: absolute;
   width: var(--earth-size);
   height: var(--earth-size);
   background-color: navy;
   background-image: var(--sphere-lighting);
   background-repeat: no-repeat;
+
 }
 
+  
 #luna {
   background-color: #ccc;
   width: var(--luna-size);
@@ -62,6 +69,7 @@
   background-image: var(--sphere-lighting);
   background-repeat: no-repeat;
   transform: translate(55px, -5px);
+
 }
 
 .scene:hover #solar-system,
@@ -72,17 +80,19 @@
 }
 
 .scene:hover #solar-system {
- 
+  transform: translate(-50%, -50%) rotate(1turn);
 }
 
 .scene:hover #earth-system {
-  transform: translate(100px, -50px) rotate(1turn);
-  transform-origin: -160px, 50%;
+  transform-origin: -100px 50%;
+  transform: translate(100px, -50%) rotate(1turn);
 }
 
 .scene:hover #earth {
+  
 }
 
 .scene:hover #luna {
-  transform: translate();
+  transform-origin: -55px 50%;
+  transform: translate(55px, -5%) rotate(12turn);
 }
