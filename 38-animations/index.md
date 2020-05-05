@@ -7,9 +7,15 @@ No need for a higher-specificity selector to drive them too, you can set animati
 Let's do some research:
 
 1. Keyframe Animation setup needs some unique code, what does it start with?
+- @keyframes
 1. What makes the keyframes code different to the rest of CSS?
+- We can change the CSS styles many times. 
 1. How do we use a keyframe animation we set up earlier as a property in a ruleset for an element?
+- 
 1. Keyframe animations have other keywords that aren't available in `transitions`, what are these keywords?
+- 
 1. How many properties can we animate at once?
+- We can animate four or more than at once.
 1. What properties are animatable?
+- 
 
