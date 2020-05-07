@@ -21,6 +21,7 @@
   margin-left: calc(var(--paper-width) / -2);
   background-color: #fff;
   box-shadow: 0 20px 20px rgba(0,0,0,.2);
+  transform:translateX(-50%) translateY(-50%);
 }
 
 .scissor-half {
@@ -88,7 +89,22 @@
   height: 200px;
   width: 370px;
   z-index: calc(var(--middle-z-index) + 1);
+  transform-origin: 50px 50px;
+  animation-name:move;
+	animation-duration:10s;
+	animation-fill-mode:forwards;
+  animation-timing-function:linear;
 }
+
+@keyframes move {
+  0% {left:0; top: 0;}
+  20%{left:20%; top:20px;}
+  40%{left:40%; top:40px;}
+  60%{left:60%; top: 60px;}
+  80%{left: 80%; top: 80px;}
+  100% {left:85%; top:85px;}
+}
+
 
 #scissors-pivot {
   --negative-pivot-radius: calc(var(--pivot-diameter) / -2);
@@ -119,11 +135,35 @@
   border-top-left-radius: 50px 40px;
   border-bottom-left-radius: 10px;
   border-block-end-width: 5px;
+  transform-origin:45px 45px;
+  transform: rotateZ(30deg);
+  animation-name: top;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
+
+@keyframes top {
+  0% {transform: rotateZ(0deg);}
+  100% {transform: rotateZ(-90deg);}
+}
+
 
 #handle-bottom {
   top: -24px;
   transform: rotate(-30deg);
+  transform-origin:45px 45px;
+  animation-name: rotateBottom;
+  animation-duration:2s;
+	animation-timing-function:linear;
+  animation-fill-mode:forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotateBottom {
+  0% {transform: rotateZ(0deg);}
+  100% {transform: rotateZ(90deg);}
 }
 
 #handle-bottom::after {
@@ -147,13 +187,35 @@
   border-top-left-radius: 10px;
   border-block-start-width: 5px;
   z-index: 5;
+  animation-name: bottom;
+  animation-duration:2s;
+	animation-iteration-count: infinite;
+	animation-timing-function:linear;
+	animation-fill-mode:forwards
 }
+
+@keyframes bottom {
+  0% {transform: translate(-45% -45%) rotateZ(0deg);}
+  100% {transform: translate( 45% 45%) rotateZ(90deg);}
+}
+
 
 #handle-top {
   bottom: -24px;
   transform: rotate(30deg);
   z-index: 6;
+  animation-name: rotateTop;
+  animation-duration:2s;
+	animation-iteration-count: infinite;
+	animation-timing-function:ease;
+	animation-fill-mode:forwards
 }
+
+@keyframes rotateTop {
+  0% {transform:rotateX(0deg);}
+	100% {transform:rotateX(-90deg);}
+}
+
 
 #handle-top::after {
   bottom: calc(var(--handle-diameter) / 2);
@@ -167,6 +229,7 @@
   transform-origin: 50% 100%;
   transform: translateZ(100px) rotateX(15deg);
 }
+
 
 #paper-uncut {
   top: 199px;
