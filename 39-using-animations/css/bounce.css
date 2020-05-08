@@ -9,15 +9,6 @@
 }
 
 
-/*@keyframes bounce {
-  0%{ 
-    transform: translateY(0);
-  }
-  100%{
-    transform: translateY(calc(var(--ball-diameter) * 4));
-  }
-}*/
-
 #ball {
   position: absolute;
   left: var(--ball-diameter);
@@ -39,12 +30,12 @@
 
 @keyframes updown {
   0% {transform: scale(0.5,0.5) translateY(0);}
- 60% {transform: scale(0.25,0.25) translateY(300px);}
+ 90% {transform: scale(0.5,0.25) translateY(300px);}
 100% {transform: scale(1.1, 0.9) translateY(400px);}
 }
 
 @keyframes leftright {
   0% {left: 0;}
-100% {left: 0px;}
+100% {left: 600px;}
 }
 
