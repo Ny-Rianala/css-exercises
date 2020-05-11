@@ -89,16 +89,16 @@
   height: 200px;
   width: 370px;
   z-index: calc(var(--middle-z-index) + 1);
-  transform-origin: 50px 50px;
+  transform-origin: 50% 50%;
   animation-name:cutting;
-	animation-duration: 5s;
-  animation-timing-function:linear;
-  animation-iteration-count: infinite;
+	animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
 }
 
 @keyframes cutting{
-  0% {right: 0;}
-  100% {left: 100px;}
+  0% {left: 0;}
+  100% {left: 100%;}
 }
 
 #scissors-pivot {
@@ -125,11 +125,12 @@
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
 }
 
 @keyframes top {
   0% {transform: rotateZ(0deg);}
-  50%{transform: rotateZ(45deg);}
+  50%{transform: rotateZ(-45deg);}
   100% {transform: rotateZ(0deg);}
 }
 
@@ -146,8 +147,6 @@
 
 #handle-bottom {
   top: -24px;
-  transform: rotate(-30deg);
-  transform-origin:45px 45px;
 }
 
 #handle-bottom::after {
@@ -165,11 +164,12 @@
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
 }
 
 @keyframes bottom {
   0% {transform: rotateZ(0deg);}
-  50%{transform: rotateZ(-45deg);}
+  50%{transform: rotateZ(45deg);}
   100% {transform: rotateZ(0deg);}
 }
 
@@ -201,6 +201,15 @@
   z-index: calc(var(--middle-z-index) - 1);
   transform-origin: 50% 100%;
   transform: translateZ(100px) rotateX(15deg);
+  animation-name: paperCut;
+  animation-duration: 1s;
+  animation-delay: 5s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes paperCut {
+  100% {top: 50%;}
 }
 
 
@@ -211,6 +220,15 @@
   transform: translateZ(100px) rotateX(15deg);
   border-block-start: 1px dashed #ccc;
   z-index: calc(var(--middle-z-index) + 1);
+  animation-name: paperNotcut;
+  animation-duration: 1s;
+  animation-delay: 5s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes paperNotcut {
+  100% {top: 50%;}
 }
 
 /* Debug setup */
@@ -223,11 +241,3 @@
 .debug #scissor-top {outline-color: red;}
 .debug #scissor-bottom {outline-color: green;}
 
-/*@keyframes move {
-  0% {left:0; top: 0;}
-  20%{left:20%; top:20px;}
-  40%{left:40%; top:40px;}
-  60%{left:60%; top: 60px;}
-  80%{left: 80%; top: 80px;}
-  100% {left:85%; top:85px;}
-}*/
