@@ -25,7 +25,6 @@ How many font-face blocks do we need to provide if we want to support all the ch
   160kb
 7. If we chose to offer WOFF2 as well as WOFF, what syntax would we use? How many files would we have, according to question 5?  
   We use url() format(),  
-
   .We would have 16 files. 
 8. Most of our users would probably have the exact font we want to serve already installed on their devices. How can we make sure the user's browser doesn't download the fonts they might already have?
 Using local or system
