@@ -4,12 +4,18 @@ We haven't covered a number of topics that are really good to know, but each one
 
 So, let's go through as many of the more important but small properties here as we can:
 
-- `cursor`
-- `pointer-events`
-- `outline`
-- `filter`
+- `cursor`  
+  sets the type of cursor: 
+- `pointer-events`  
+  pointer-events depend on which element are we pointing. We can use fill or stroke.
+- `outline`  
+  it is a shorthand to set variuos outline properties: outline-style, outline-width, outline-color.  
+- `filter`  
+  It affects the color.
 - `appearance`
-- `object-fit`
+
+- `object-fit`  
+  sets the object to fitits container.
 - `scroll-snap-align`
 
 There are many more! See [the official list of all CSS properties](https://www.w3.org/Style/CSS/all-properties.en.html)
