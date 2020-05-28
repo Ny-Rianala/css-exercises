@@ -21,3 +21,39 @@ html {
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form--button_simple{
+  text-decoration: none;
+  list-style: none;
+  background-color: var(--secondary-colour);
+  padding-inline-start: var(--nav-tab-horizontal-padding);
+  padding-inline-end: var(--nav-tab-horizontal-padding);
+  padding-block-end: var(--nav-tab-vertical-padding);
+  padding-block-start: var(--nav-tab-vertical-padding);
+  width: calc(var(--container-max-width) / 5);
+}
+
+.form__form_button--link{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.form__form_button--link:hover {
+  text-decoration: none;
+}
+
+.form--button__active{
+  display: flex;
+  width: calc(var(--container-max-width) / 5);
+}
+
+.description{
+  background-color: var(--primary-colour);
+  width: var(--container-max-width);
+}
