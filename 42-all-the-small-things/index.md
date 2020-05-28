@@ -15,7 +15,7 @@ So, let's go through as many of the more important but small properties here as 
 - `appearance`
 
 - `object-fit`  
-  sets the object to fitits container.
+  sets the object to fits container.
 - `scroll-snap-align`
 
 There are many more! See [the official list of all CSS properties](https://www.w3.org/Style/CSS/all-properties.en.html)
