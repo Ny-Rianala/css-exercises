@@ -20,23 +20,32 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  max-width: var(--container-max-width);
 }
 
 .form{
   display: flex;
   flex-direction: row;
+  align-items: stretch;
   justify-content: space-between;
+  padding: 0;
 }
 
-.form--button_simple{
-  text-decoration: none;
-  list-style: none;
+form__form_button--link{
   background-color: var(--secondary-colour);
   padding-inline-start: var(--nav-tab-horizontal-padding);
   padding-inline-end: var(--nav-tab-horizontal-padding);
   padding-block-end: var(--nav-tab-vertical-padding);
   padding-block-start: var(--nav-tab-vertical-padding);
-  width: calc(var(--container-max-width) / 5);
+}
+
+.form--button_simple{
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  width: calc(var(--container-max-width) / 5);  
+  border-radius: var(--nav-tab-radius-amount);
 }
 
 .form__form_button--link{
@@ -53,7 +62,9 @@ body {
   width: calc(var(--container-max-width) / 5);
 }
 
-.description{
+.description__link_price{
   background-color: var(--primary-colour);
-  width: var(--container-max-width);
+  /*width: var(--container-max-width);*/
+  padding-inline-start: var(--article-padding);
+  padding-inline-end: var(--article-padding);
 }
