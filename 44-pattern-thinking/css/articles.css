@@ -43,31 +43,31 @@ article{
 }
 
 /* 1 */
-[data-example="1"] .example_1{
+[data-example="1"] {
   display: grid;
   grid-template-columns: repeat(3 1fr);
   grid-gap: 10px; 
 }
 
 /* 2 */
-[data-example="2"] .example_2{
+[data-example="2"]{
   display: flex;
   flex-direction: column;
   align-content: space-between;
 }
 
-.example_2 header{
-  margin-block-end: 10px;
-}
-
-.example_2 .content{
-  margin-block-end: 10px;
-}
-
-
 /* 3 */
-[data-example="3"] h2 p{
+[data-example="3"]{
   display: inline-block;
-  max-width: max-content;
-  margin-block-start: 1rem;
+  flex-flow: column;
 }
+
+article > header{
+  margin-block-end: 15px;
+}
+
+article > .content{
+  margin-block-end: 15px;
+}
+
+
