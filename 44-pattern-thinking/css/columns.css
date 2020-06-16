@@ -65,10 +65,15 @@
 /* 9 */
 [data-example="9"] .columns {
   columns: 2;
+  height: 100%;
 }
 
 [data-example="9"] .columns > *{
-  column-width: 100%;
+  box-sizing: border-box;
+  height: 100%;
 }
+
+
+
 
 
