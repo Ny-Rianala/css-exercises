@@ -37,16 +37,16 @@
   --article-elem-color: 191, 63, 63;
 }
 
-article{
-  outline: black 1rem solid;
+.example_group article {
   margin-block-end: 10px;
+
 }
 
 /* 1 */
 [data-example="1"] {
   display: grid;
   grid-template-columns: repeat(3 1fr);
-  grid-gap: 10px; 
+  grid-gap: 10px;
 }
 
 /* 2 */
@@ -69,5 +69,4 @@ article > header{
 article > .content{
   margin-block-end: 15px;
 }
-
 
